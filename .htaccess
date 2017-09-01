@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+#MAIN ROUTE
+RewriteRule ^main$ modul/modul_core/core.php [L]
+RewriteRule ^login$ modul/modul_core/login.php [L]
+
+Options All -Indexes
+</IfModule>

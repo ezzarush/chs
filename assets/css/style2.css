@@ -80,7 +80,7 @@ body {
     position: relative;
     padding: 0 3em;
 }
-.sub-main-w3 input[type="email"], .sub-main-w3 input[type="password"] {
+.sub-main-w3 input[type="text"], .sub-main-w3 input[type="password"] {
     outline: none;
     font-size: 1em;
     border: none;
