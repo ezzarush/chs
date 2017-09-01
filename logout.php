@@ -1,6 +1,5 @@
 <?php
 session_start();
 session_destroy();
-
-header("Location: home");
+echo '<script language="javascript">alert("Anda berhasil Logout!"); document.location="login.php";</script>';
 ?>
