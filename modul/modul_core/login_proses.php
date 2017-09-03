@@ -3,7 +3,7 @@ include('../../config/serverconfig.php');
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$login    = mysqli_query($conn, "select * from tbl_user where username='$username' and password='$password'");
+$login    = mysqli_query($conn, "select * from ref_user where username='$username' and password='$password'");
 $result   = mysqli_num_rows($login);
 
 if($result>0){
