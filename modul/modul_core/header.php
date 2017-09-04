@@ -62,7 +62,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				<button id="showLeftPush"><i class="fa fa-bars"></i></button>
 				<!--toggle button end-->
 				<!--logo -->
-				<div class="logo">
+				<div class="logo" style="<?=$_SESSION['level']==1?'background-color:#e94e02':''?>">
 					<a href="index.html">
 						<h1>CHS</h1>
 						<span>Permata Bank</span>
