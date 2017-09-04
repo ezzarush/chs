@@ -41,7 +41,6 @@
 								<li><a href="#">Customer Search</a></li>
 								<li><a href="#">Card Information</a></li>
 								<li><a href="#">Problem History</a></li>
-								<li><a href="#">Problem History SNS</a></li>
 							</ul>
 						</li>
 						<li class="">
@@ -57,20 +56,6 @@
 								<li><a href="#">Case Pending New</a></li>
 							</ul>
 						</li>
-						<li class="">
-							<a href="#"><i class="fa fa-book nav_icon"></i>Super Admin <span class="fa arrow"></span></a>
-							<ul class="nav nav-second-level collapse">
-								<li><a href="#">Release Login</a></li>
-							</ul>
-						</li>
-						<li class="">
-							<a href="#"><i class="fa fa-book nav_icon"></i>Maintenance <span class="fa arrow"></span></a>
-							<ul class="nav nav-second-level collapse">
-								<li><a href="#">Submenu</a></li>
-							</ul>
-						</li>
-						
-						
 					</ul>
 					<!-- //sidebar-collapse -->
 				</nav>
