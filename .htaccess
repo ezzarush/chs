@@ -5,5 +5,11 @@ RewriteEngine on
 RewriteRule ^main$ modul/modul_core/core.php [L]
 RewriteRule ^login$ modul/modul_core/login.php [L]
 
+#PROBLEM HISTORY
+RewriteRule ^problem_history$ modul/modul_core/problem_history.php [L]
+
+#CASE REGISTRATION
+RewriteRule ^case_registration$ modul/modul_case_registration/case_registration.php [L]
+
 Options All -Indexes
 </IfModule>

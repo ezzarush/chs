@@ -15,6 +15,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->
 <link href="<?=$app_path;?>assets/css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="<?=$app_path;?>assets/DataTables/datatables.min.css" rel='stylesheet' type='text/css' />
 <!-- Custom CSS -->
 <link href="<?=$app_path;?>assets/css/style.css" rel='stylesheet' type='text/css' />
 <!-- font CSS -->
@@ -23,6 +24,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 <!-- //font-awesome icons -->
  <!-- js-->
 <script src="<?=$app_path;?>assets/js/jquery-1.11.1.min.js"></script>
+<script src="<?=$app_path;?>assets/DataTables/datatables.min.js"></script>
 <script src="<?=$app_path;?>assets/js/modernizr.custom.js"></script>
 <!--webfonts-->
 <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
@@ -38,11 +40,8 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 <script src="<?=$app_path;?>assets/js/Chart.js"></script>
 <!-- //chart -->
 <!--Calender-->
-<link rel="stylesheet" href="<?=$app_path;?>assets/css/clndr.css" type="text/css" />
 <script src="<?=$app_path;?>assets/js/underscore-min.js" type="text/javascript"></script>
 <script src= "<?=$app_path;?>assets/js/moment-2.2.1.js" type="text/javascript"></script>
-<script src="<?=$app_path;?>assets/js/clndr.js" type="text/javascript"></script>
-<script src="<?=$app_path;?>assets/js/site.js" type="text/javascript"></script>
 <!--End Calender-->
 <!-- Metis Menu -->
 <script src="<?=$app_path;?>assets/js/metisMenu.min.js"></script>

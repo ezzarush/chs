@@ -9,6 +9,5 @@ $hostname	= 'localhost';
 $username	= 'root';
 $password	= '';
 $database	= 'db_chs';
-$conn		= mysqli_connect($hostname,$username,$password,$database);
-
+$db=new ee_database($hostname,$username,$password,$database);
 ?>

@@ -4,7 +4,10 @@
 				<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1" style="overflow: scroll; <?=$_SESSION['level']==1?'background-color:#585858':''?>">
 					<ul class="nav" id="side-menu">
 						<li>
-							<a href="index.html" class="active"><i class="fa fa-home nav_icon"></i>Dashboard</a>
+							<a href="<?=$app_path;?>" class="active"><i class="fa fa-home nav_icon"></i>Dashboard</a>
+						</li>
+						<li>
+							<a href="<?=$app_path;?>problem_history"><i class="fa fa-book nav_icon"></i>Problem History</a>
 						</li>
 						<?php
 						if($_SESSION['level'] == 1){
@@ -29,7 +32,7 @@
 							<li class="">
 								<a href="#"><i class="fa fa-book nav_icon"></i>Problem Maintenance <span class="fa arrow"></span></a>
 								<ul class="nav nav-second-level collapse">
-									<li><a href="#">Case Registration</a></li>
+									<li><a href="<?=$app_path;?>case_registration">Case Registration</a></li>
 									<li><a href="#">List of Problem</a></li>
 									<li><a href="#">Problem Assignment</a></li>
 									<li><a href="#">Hand Over Problem</a></li>
