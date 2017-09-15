@@ -1,5 +1,6 @@
 <?php
 session_start();
+include('../../config/class_database.php');
 include('../../config/serverconfig.php');
 
 if(isset($_SESSION["isLogin"])){
