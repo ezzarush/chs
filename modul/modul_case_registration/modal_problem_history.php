@@ -61,7 +61,7 @@
 									</tfoot>
 									<tbody>
 										<?php
-										while($row = $db->database_fetch_array($sql_topic)){
+										while($row = mysqli_fetch_array($sql_topic)){
 										?>
 											<tr>
 												<td><?=$row['date_entry'];?></td>
