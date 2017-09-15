@@ -1,5 +1,6 @@
 <?php
 
+
 //GLOBAL CONFIG
 $hostname 	= $_SERVER['SERVER_NAME'];
 $app_path   = 'http://'.$hostname.'/chs/';
