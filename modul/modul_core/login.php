@@ -1,4 +1,5 @@
 <?php
+include('../../config/class_database.php');
 include('../../config/serverconfig.php');
 ?>
 <!--
