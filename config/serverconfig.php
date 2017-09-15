@@ -10,5 +10,5 @@ $hostname	= 'localhost';
 $username	= 'root';
 $password	= '';
 $database	= 'db_chs';
-$db=new ee_database($hostname,$username,$password,$database);
+$conn		= mysqli_connect($hostname,$username,$password,$database);
 ?>
